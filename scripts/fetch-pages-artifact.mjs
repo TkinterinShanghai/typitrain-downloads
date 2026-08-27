@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import {
   createReadStream,
   createWriteStream,
+  existsSync,
   mkdirSync,
   mkdtempSync,
   readFileSync,
@@ -126,16 +127,20 @@ export async function fetchPagesArtifact({ appId, root = process.cwd() }) {
   })
     .filter(([, value]) => !value)
     .map(([name]) => name);
-  if (missing.length) throw new Error(`Missing environment: ${missing.join(", ")}`);
+  if (missing.length)
+    throw new Error(`Missing environment: ${missing.join(", ")}`);
 
   const manifestPath = resolve(root, "deployments", `${appId}.json`);
-  const manifest = validateManifest(JSON.parse(readFileSync(manifestPath, "utf8")), {
-    appId,
-    bucket,
-  });
+  const manifest = validateManifest(
+    JSON.parse(readFileSync(manifestPath, "utf8")),
+    {
+      appId,
+      bucket,
+    },
+  );
   const temporary = mkdtempSync(resolve(root, ".trainapps-artifact-"));
   const archive = join(temporary, "artifact.tar.gz");
-  const extracted = join(temporary, "out");
+  const extracted = join(temporary, "payload");
 
   try {
     const request = signedR2Get({
@@ -182,17 +187,41 @@ export async function fetchPagesArtifact({ appId, root = process.cwd() }) {
       "--no-same-permissions",
     ]);
 
-    const markerPath = join(extracted, "deployment.json");
+    const extractedOutput = join(extracted, "out");
+    const extractedFunctions = join(extracted, "functions");
+    const extractedPackages = join(extracted, "packages");
+    for (const required of [
+      extractedOutput,
+      extractedFunctions,
+      join(extractedPackages, "mcp", "src", "gateway.ts"),
+    ]) {
+      if (!existsSync(required)) {
+        throw new Error(
+          `Artifact is missing Pages runtime content: ${required}`,
+        );
+      }
+    }
+
+    const markerPath = join(extractedOutput, "deployment.json");
     const marker = JSON.parse(readFileSync(markerPath, "utf8"));
     if (marker.commit !== manifest.source.commit) {
-      throw new Error("Extracted deployment marker does not match the manifest");
+      throw new Error(
+        "Extracted deployment marker does not match the manifest",
+      );
     }
-    const sourceMap = findSourceMaps(extracted);
-    if (sourceMap) throw new Error(`Artifact contains a source map: ${sourceMap}`);
+    const sourceMap = findSourceMaps(extractedOutput);
+    if (sourceMap)
+      throw new Error(`Artifact contains a source map: ${sourceMap}`);
 
-    const output = resolve(root, "out");
-    rmSync(output, { force: true, recursive: true });
-    renameSync(extracted, output);
+    for (const [source, targetName] of [
+      [extractedOutput, "out"],
+      [extractedFunctions, "functions"],
+      [extractedPackages, "packages"],
+    ]) {
+      const target = resolve(root, targetName);
+      rmSync(target, { force: true, recursive: true });
+      renameSync(source, target);
+    }
     console.log(
       `Prepared ${appId} from verified source commit ${manifest.source.commit}.`,
     );
