@@ -14,7 +14,11 @@ function hmac(key, value, encoding) {
 
 function encodedPath(bucket, key) {
   return `/${[bucket, ...key.split("/")]
-    .map((part) => encodeURIComponent(part).replaceAll("!", "%21"))
+    .map((part) =>
+      encodeURIComponent(part).replace(/[!'()*]/g, (character) =>
+        `%${character.charCodeAt(0).toString(16).toUpperCase()}`,
+      ),
+    )
     .join("/")}`;
 }
 
