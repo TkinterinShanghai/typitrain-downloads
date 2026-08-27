@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "trip",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "fd36f64026d1250e040297eaf95ee3b46d56f0b6"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/trip/fd36f64026d1250e040297eaf95ee3b46d56f0b6/2d861314-23ee-4377-aaa4-2f284aa044da/ec23c1672e98db4ef5cc26904f84b381748b965dcaaa5688324b21d24ef47a3b.tar.gz",
+    "sha256": "ec23c1672e98db4ef5cc26904f84b381748b965dcaaa5688324b21d24ef47a3b",
+    "size": 86694472
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-08-27T23:16:58.267Z"
+}
