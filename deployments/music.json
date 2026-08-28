@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "music",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "2066734db6c08c5f515f22278c93ccd2929bb887"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/music/2066734db6c08c5f515f22278c93ccd2929bb887/1925380e-0b80-4678-9511-4bfb042a997f/cc0ed4e19b55e78cc04f2f06c2307dbd02655b8a1c487c8d47988b3532121372.tar.gz",
+    "sha256": "cc0ed4e19b55e78cc04f2f06c2307dbd02655b8a1c487c8d47988b3532121372",
+    "size": 747548177
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-08-28T12:32:23.790Z"
+}

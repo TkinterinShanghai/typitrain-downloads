@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "typi",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "2066734db6c08c5f515f22278c93ccd2929bb887"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/typi/2066734db6c08c5f515f22278c93ccd2929bb887/f7d17a24-961a-43f6-beb6-e7060e6136c0/915cb8549c2865a1db0c664084786f0c9c08abde5e61652e8b82673112c4aedc.tar.gz",
+    "sha256": "915cb8549c2865a1db0c664084786f0c9c08abde5e61652e8b82673112c4aedc",
+    "size": 340250256
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-08-28T12:27:25.317Z"
+}
