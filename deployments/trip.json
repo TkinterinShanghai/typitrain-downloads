@@ -7,12 +7,12 @@
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/trip/fd36f64026d1250e040297eaf95ee3b46d56f0b6/2d861314-23ee-4377-aaa4-2f284aa044da/ec23c1672e98db4ef5cc26904f84b381748b965dcaaa5688324b21d24ef47a3b.tar.gz",
-    "sha256": "ec23c1672e98db4ef5cc26904f84b381748b965dcaaa5688324b21d24ef47a3b",
-    "size": 86694472
+    "key": "pages/trip/fd36f64026d1250e040297eaf95ee3b46d56f0b6/bfc16e4a-0507-493a-b9ee-a2c6ae63ca79/d048d3067f8f0d996f455b68442f120d74f2acf21095b315fc4d0af3b9bf0e53.tar.gz",
+    "sha256": "d048d3067f8f0d996f455b68442f120d74f2acf21095b315fc4d0af3b9bf0e53",
+    "size": 86694913
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-08-27T23:16:58.267Z"
+  "createdAt": "2026-08-28T07:22:57.801Z"
 }
