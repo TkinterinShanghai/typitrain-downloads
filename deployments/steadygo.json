@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "steadygo",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "70d0f4603653885c155a9735532bd2c5b7eff74d"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/steadygo/70d0f4603653885c155a9735532bd2c5b7eff74d/d377cc21-becf-47f7-8537-155fb47f4889/d426a3d4b6249c3f251ac9150cbcecf7b09edc29d195e081d72de218d42bd0ac.tar.gz",
+    "sha256": "d426a3d4b6249c3f251ac9150cbcecf7b09edc29d195e081d72de218d42bd0ac",
+    "size": 12431148
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-09-01T07:24:13.287Z"
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "geography",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "70d0f4603653885c155a9735532bd2c5b7eff74d"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/geography/70d0f4603653885c155a9735532bd2c5b7eff74d/d2e3b9e0-fa4c-4c1c-8211-1960c2fdc9e1/db1ccc65ab78f38822075252bfcd4c67d3fc3a47c06b7a5ac4675481e3fe5c9c.tar.gz",
+    "sha256": "db1ccc65ab78f38822075252bfcd4c67d3fc3a47c06b7a5ac4675481e3fe5c9c",
+    "size": 458082410
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-09-01T07:20:14.191Z"
+}

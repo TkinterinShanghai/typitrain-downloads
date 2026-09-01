@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "language",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "70d0f4603653885c155a9735532bd2c5b7eff74d"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/language/70d0f4603653885c155a9735532bd2c5b7eff74d/6a7106f1-1749-4867-95d0-4082178ee96b/1278e57759a28ddecc9b28c5b83e74d8263084484a3c59a275275c6bfaee0994.tar.gz",
+    "sha256": "1278e57759a28ddecc9b28c5b83e74d8263084484a3c59a275275c6bfaee0994",
+    "size": 715126384
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-09-01T06:57:17.618Z"
+}
