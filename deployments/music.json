@@ -3,16 +3,16 @@
   "app": "music",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "70d0f4603653885c155a9735532bd2c5b7eff74d"
+    "commit": "8bbe96029b7dfe6fb83eefe25d3a30f52745e0dc"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/music/70d0f4603653885c155a9735532bd2c5b7eff74d/42c27679-4f52-49d1-9b75-369b9de2d045/437acb667c8ed892f3362cbc9a67b8025e2305eb74e502384485726e5b0c3a33.tar.gz",
-    "sha256": "437acb667c8ed892f3362cbc9a67b8025e2305eb74e502384485726e5b0c3a33",
-    "size": 747579324
+    "key": "pages/music/8bbe96029b7dfe6fb83eefe25d3a30f52745e0dc/fff243b4-61b7-47aa-804d-431a3bf48025/7265f675cf7c374b32e2ed34ca317736d982d7a7db41a3d7e3547bbe3b342e44.tar.gz",
+    "sha256": "7265f675cf7c374b32e2ed34ca317736d982d7a7db41a3d7e3547bbe3b342e44",
+    "size": 749016972
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-09-01T07:17:29.954Z"
+  "createdAt": "2026-09-13T06:02:31.410Z"
 }
