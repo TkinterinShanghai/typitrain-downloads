@@ -3,16 +3,16 @@
   "app": "steadygo",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "9416ab2b8be0520560a6cc04a5d3e10e84b8e25b"
+    "commit": "f867fd95b2039a913cb29a31b14bd2f95b294a3e"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/steadygo/9416ab2b8be0520560a6cc04a5d3e10e84b8e25b/d5217922-5b44-4ed2-9097-5b42d6ee014b/50c559785666cb6ca7294e8141c7cc18ac5a21f98355275abb24037e2d909233.tar.gz",
-    "sha256": "50c559785666cb6ca7294e8141c7cc18ac5a21f98355275abb24037e2d909233",
-    "size": 12425877
+    "key": "pages/steadygo/f867fd95b2039a913cb29a31b14bd2f95b294a3e/2eaf68c4-2963-4ee9-a5c1-c2c9a65c6e81/d58f610a3e0aca5ab9effe9c4eca287d9bd173a7df2ad7154c271356fb9312d8.tar.gz",
+    "sha256": "d58f610a3e0aca5ab9effe9c4eca287d9bd173a7df2ad7154c271356fb9312d8",
+    "size": 12427325
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-09-18T21:45:14.384Z"
+  "createdAt": "2026-09-26T13:56:35.438Z"
 }
