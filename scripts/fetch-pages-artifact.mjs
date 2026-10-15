@@ -26,6 +26,7 @@ const APP_IDS = new Set([
   "geography",
   "steadygo",
   "trip",
+  "admin",
 ]);
 const SHA256 = /^[a-f0-9]{64}$/;
 const COMMIT = /^[a-f0-9]{40}$/;
