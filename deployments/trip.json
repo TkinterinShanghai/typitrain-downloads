@@ -3,16 +3,16 @@
   "app": "trip",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "36e2787e357676cfd4102c85dadf9c08d914f8e5"
+    "commit": "83842090fcc5896a9ee32c31e1111e356d2beafb"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/trip/36e2787e357676cfd4102c85dadf9c08d914f8e5/2a641011-7bd9-458b-927b-c7946ca62a71/02e301b22b974ecf4332052f226c0316bb92a61b095bbb5f02c4bc3f0d5c9ad1.tar.gz",
-    "sha256": "02e301b22b974ecf4332052f226c0316bb92a61b095bbb5f02c4bc3f0d5c9ad1",
-    "size": 146865635
+    "key": "pages/trip/83842090fcc5896a9ee32c31e1111e356d2beafb/4b273526-1b86-4047-8070-9c8bbb2232b7/ec2b486dffe082ff62c3f2ecfdfa9f851982b35db5609128645ead76f757a702.tar.gz",
+    "sha256": "ec2b486dffe082ff62c3f2ecfdfa9f851982b35db5609128645ead76f757a702",
+    "size": 149013673
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-10-13T17:40:28.953Z"
+  "createdAt": "2026-10-15T02:35:41.751Z"
 }
