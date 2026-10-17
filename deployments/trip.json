@@ -3,16 +3,16 @@
   "app": "trip",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "d9a3e7d59d07aa493fa056b8a3dadaa3b860edb0"
+    "commit": "5060e57191937d8ff5a28e6a918282d511130012"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/trip/d9a3e7d59d07aa493fa056b8a3dadaa3b860edb0/713dda5a-c2a9-4c02-be81-c1881cc458d1/80e5b56cc45f8b61829a95d863634cfa11319a9b275ac3b3a5c0e731aa6d3b5d.tar.gz",
-    "sha256": "80e5b56cc45f8b61829a95d863634cfa11319a9b275ac3b3a5c0e731aa6d3b5d",
-    "size": 156522355
+    "key": "pages/trip/5060e57191937d8ff5a28e6a918282d511130012/e2d4b09b-bce5-443e-b6ca-35f021d84d10/d5fdbed734687c497ea85f2c0a49562e47334e448d31eb71c485bc5c10ff4a27.tar.gz",
+    "sha256": "d5fdbed734687c497ea85f2c0a49562e47334e448d31eb71c485bc5c10ff4a27",
+    "size": 156527585
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-10-17T03:24:53.491Z"
+  "createdAt": "2026-10-17T16:41:57.463Z"
 }
