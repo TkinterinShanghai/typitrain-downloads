@@ -3,16 +3,16 @@
   "app": "typi",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "5060e57191937d8ff5a28e6a918282d511130012"
+    "commit": "9a0c9adbc7a82791a55dd8fd588e03e3274e5bab"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/typi/5060e57191937d8ff5a28e6a918282d511130012/16180c84-e3df-4e00-a300-958b86aa335d/72082e168bb2b883de1c070abb566a30e6981510df2b6a1d68fbc75a409a155d.tar.gz",
-    "sha256": "72082e168bb2b883de1c070abb566a30e6981510df2b6a1d68fbc75a409a155d",
-    "size": 377193109
+    "key": "pages/typi/9a0c9adbc7a82791a55dd8fd588e03e3274e5bab/e3993562-8110-4424-a833-70e43dd2f7ef/04da3d33a814fa95823ae5438f66bfc393659dabe1fd3637a3480c761da13f66.tar.gz",
+    "sha256": "04da3d33a814fa95823ae5438f66bfc393659dabe1fd3637a3480c761da13f66",
+    "size": 376808543
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-10-17T16:29:02.174Z"
+  "createdAt": "2026-10-19T09:57:27.343Z"
 }
