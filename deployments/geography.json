@@ -3,16 +3,16 @@
   "app": "geography",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "9a0c9adbc7a82791a55dd8fd588e03e3274e5bab"
+    "commit": "ef1bcaecdf8d2228e9ce964e0eb3df836b481294"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/geography/9a0c9adbc7a82791a55dd8fd588e03e3274e5bab/d79a3cf6-e1d0-439e-8e13-a658356088ad/2bd4f9bd8b5f02800cfcdb51a797c7d8efbf7fa19842a6c4035a96b0d7a06521.tar.gz",
-    "sha256": "2bd4f9bd8b5f02800cfcdb51a797c7d8efbf7fa19842a6c4035a96b0d7a06521",
-    "size": 1022031666
+    "key": "pages/geography/ef1bcaecdf8d2228e9ce964e0eb3df836b481294/7920438f-d699-4bb6-a5af-a3aae6cbaeff/63efb1f82b89c1746cec9b85cc412634c7321a3a8d4e678e6319309f5b885b27.tar.gz",
+    "sha256": "63efb1f82b89c1746cec9b85cc412634c7321a3a8d4e678e6319309f5b885b27",
+    "size": 1004884606
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-10-19T10:05:45.091Z"
+  "createdAt": "2026-10-20T19:32:11.310Z"
 }
