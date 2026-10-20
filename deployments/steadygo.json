@@ -3,16 +3,16 @@
   "app": "steadygo",
   "source": {
     "repository": "TkinterinShanghai/TippProgramm",
-    "commit": "9a0c9adbc7a82791a55dd8fd588e03e3274e5bab"
+    "commit": "ef1bcaecdf8d2228e9ce964e0eb3df836b481294"
   },
   "artifact": {
     "bucket": "trainapps-pages-artifacts",
-    "key": "pages/steadygo/9a0c9adbc7a82791a55dd8fd588e03e3274e5bab/b0bd4900-8a40-423d-a441-ccd51cc65f15/1215301f2a00054892d53325917071855fa6906203f5ac0da2dc6dffa4ed3ad1.tar.gz",
-    "sha256": "1215301f2a00054892d53325917071855fa6906203f5ac0da2dc6dffa4ed3ad1",
-    "size": 15765953
+    "key": "pages/steadygo/ef1bcaecdf8d2228e9ce964e0eb3df836b481294/a8755041-231c-4d89-a895-81cf79bbf907/e9772fe34711a949bec5db470c0de108eecf7322dc3fa1cdc451653c0668befc.tar.gz",
+    "sha256": "e9772fe34711a949bec5db470c0de108eecf7322dc3fa1cdc451653c0668befc",
+    "size": 17171560
   },
   "runtime": {
     "pagesFunctions": true
   },
-  "createdAt": "2026-10-19T10:13:55.466Z"
+  "createdAt": "2026-10-20T19:46:28.921Z"
 }
