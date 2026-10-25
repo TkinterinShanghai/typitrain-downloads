@@ -21,6 +21,7 @@ import { signedR2Get } from "./r2-sigv4.mjs";
 
 const APP_IDS = new Set([
   "typi",
+  "typing",
   "music",
   "language",
   "geography",
