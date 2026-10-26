@@ -26,6 +26,7 @@ const APP_IDS = new Set([
   "language",
   "geography",
   "steadygo",
+  "schools",
   "trip",
   "admin",
 ]);
