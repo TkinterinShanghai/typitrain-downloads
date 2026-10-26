@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "schools",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "6dce0e9160ccb5b9943632bcad868c00f8742e72"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/schools/6dce0e9160ccb5b9943632bcad868c00f8742e72/92928766-854d-4769-8cec-1a21cbb09383/ed0c8e323952a736335c4f687075ca0e5bd8fdcedd3bf39063141fc1b16c753f.tar.gz",
+    "sha256": "ed0c8e323952a736335c4f687075ca0e5bd8fdcedd3bf39063141fc1b16c753f",
+    "size": 18469690
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-10-26T19:26:32.426Z"
+}
