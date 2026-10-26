@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "app": "typing",
+  "source": {
+    "repository": "TkinterinShanghai/TippProgramm",
+    "commit": "6dce0e9160ccb5b9943632bcad868c00f8742e72"
+  },
+  "artifact": {
+    "bucket": "trainapps-pages-artifacts",
+    "key": "pages/typing/6dce0e9160ccb5b9943632bcad868c00f8742e72/74967a06-c872-4213-a1bc-6f8b485b00bb/99a821a3fb8c3bfb24b5134b9086011ca2dbab9425581d5a7e37e54527aea5ee.tar.gz",
+    "sha256": "99a821a3fb8c3bfb24b5134b9086011ca2dbab9425581d5a7e37e54527aea5ee",
+    "size": 71593148
+  },
+  "runtime": {
+    "pagesFunctions": true
+  },
+  "createdAt": "2026-10-26T19:19:57.039Z"
+}
